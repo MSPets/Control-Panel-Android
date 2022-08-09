@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AlarmsActivity">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:padding="@dimen/fab_margin"
+
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+        <requestFocus />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/textSize"
+            android:text="Monday"/>
+            <EditText
+                android:id="@+id/mondayAlarm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSize"
+                android:inputType="time"
+                android:hint="@string/noAlarmSet"/>
+            <Spinner
+                android:id="@+id/mondayEarlyLate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/fab_margin"
+                android:entries="@array/alarmArray"/>
+            <Button
+                android:id="@+id/mondayRemove"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Remove"
+                android:onClick="mondayRemoveButtonClicked"
+                android:layout_marginBottom="@dimen/fab_margin" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSize"
+                android:text="Tuesday"/>
+            <EditText
+                android:id="@+id/tuesdayAlarm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSize"
+                android:inputType="time"
+                android:hint="@string/noAlarmSet"/>
+            <Spinner
+                android:id="@+id/tuesdayEarlyLate"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/fab_margin"
+                android:entries="@array/alarmArray"/>
+            <Button
+                android:id="@+id/tuesdayRemove"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Remove"
+                android:onClick="tuesdayRemoveButtonClicked"
+                android:layout_marginBottom="@dimen/fab_margin" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSize"
+                android:text="Wednesday"/>
+            <EditText
+                android:id="@+id/wednesdayAlarm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSize"
+                android:inputType="time"
+                android:hint="@string/noAlarmSet"/>
+            <Spinner
+                android:id="@+id/wednesdayEarlyLate"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/fab_margin"
+                android:entries="@array/alarmArray"/>
+            <Button
+                android:id="@+id/wednesdayRemove"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Remove"
+                android:onClick="wednesdayRemoveButtonClicked"
+                android:layout_marginBottom="@dimen/fab_margin" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSize"
+                android:text="Thursday"/>
+            <EditText
+                android:id="@+id/thursdayAlarm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSize"
+                android:inputType="time"
+                android:hint="@string/noAlarmSet"/>
+            <Spinner
+                android:id="@+id/thursdayEarlyLate"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/fab_margin"
+                android:entries="@array/alarmArray"/>
+            <Button
+                android:id="@+id/thursdayRemove"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Remove"
+                android:onClick="thursdayRemoveButtonClicked"
+                android:layout_marginBottom="@dimen/fab_margin" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSize"
+                android:text="Friday"/>
+            <EditText
+                android:id="@+id/fridayAlarm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSize"
+                android:inputType="time"
+                android:hint="@string/noAlarmSet"/>
+            <Spinner
+                android:id="@+id/fridayEarlyLate"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/fab_margin"
+                android:entries="@array/alarmArray"/>
+            <Button
+                android:id="@+id/fridayRemove"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Remove"
+                android:onClick="fridayRemoveButtonClicked"
+                android:layout_marginBottom="@dimen/fab_margin" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSize"
+                android:text="Saturday"/>
+            <EditText
+                android:id="@+id/saturdayAlarm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSize"
+                android:inputType="time"
+                android:hint="@string/noAlarmSet"/>
+            <Spinner
+                android:id="@+id/saturdayEarlyLate"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/fab_margin"
+                android:entries="@array/alarmArray"/>
+            <Button
+                android:id="@+id/saturdayRemove"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Remove"
+                android:onClick="saturdayRemoveButtonClicked"
+                android:layout_marginBottom="@dimen/fab_margin" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSize"
+                android:text="Sunday"/>
+            <EditText
+                android:id="@+id/sundayAlarm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSize"
+                android:inputType="time"
+                android:hint="@string/noAlarmSet"/>
+            <Spinner
+                android:id="@+id/sundayEarlyLate"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/fab_margin"
+                android:entries="@array/alarmArray"/>
+            <Button
+                android:id="@+id/sundayRemove"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Remove"
+                android:onClick="sundayRemoveButtonClicked"
+                android:layout_marginBottom="@dimen/fab_margin" />
+
+
+            <Button
+                android:id="@+id/update"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/fab_margin"
+                android:onClick="updateButtonClicked"
+                android:text="Update"/>
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

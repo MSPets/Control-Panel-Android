@@ -1,0 +1,307 @@
+<resources>
+    <string name="app_name">ControlPanel</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_resetdata">Reset Data</string>
+
+    <!--websites variables-->
+    <string name="title_lightControlUrl">URL for lights control</string>
+    <string name="key_lightControlUrl_command">key_lightControlURL_command</string>
+    <string name="default_value_lightControlUrl">https://precautious-mallard-2929.dataplicity.io/lightsControl.php/?</string>
+    <string name="summary_lightControlUrl">URL to access lights control webpage</string>
+
+    <string name="title_musicControlUrl">URL for music control</string>
+    <string name="key_musicControlUrl_command">key_musicControlUrl_command</string>
+    <string name="default_value_musicControlUrl">https://precautious-mallard-2929.dataplicity.io/musicControl.php/?</string>
+    <string name="summary_musicControlUrl">URL to access music control webpage</string>
+
+    <string name="title_alarmControlUrl">URL for alarm control</string>
+    <string name="key_alarmControlUrl_command">key_alarmControlUrl_command</string>
+    <string name="default_value_alarmControlUrl">https://precautious-mallard-2929.dataplicity.io/alarmControl.php/?</string>
+    <string name="summary_alarmControlUrl">URL to access alarm control webpage</string>
+
+    <string name="title_pcControlUrl">URL for PC control</string>
+    <string name="key_pcControlUrl_command">key_pcControlUrl_command</string>
+    <string name="default_value_pcControlUrl">https://precautious-mallard-2929.dataplicity.io/pcControl.php/?</string>
+    <string name="summary_pcControlUrl">URL to access pc control webpage</string>
+
+    <string name="title_backupUrl">URL to run backups</string>
+    <string name="key_backupUrl_command">key_backupUrl_command</string>
+    <string name="default_value_backupUrl">https://precautious-mallard-2929.dataplicity.io/backup.php/?</string>
+    <string name="summary_backupUrl">URL to access backup website webpage</string>
+
+
+    <string name="title_firstVariableUrl">First variable</string>
+    <string name="key_firstVariableUrl_command">key_firstValueUrl_command</string>
+    <string name="default_value_firstVariableUrl">com=</string>
+    <string name="summary_firstValueUrl">Variable to send first Variable to URL</string>
+
+    <string name="title_secondVariableUrl">Second variable</string>
+    <string name="key_secondVariableUrl_command">key_secondVariableUrl_command</string>
+    <string name="default_value_secondValueUrl">val=</string>
+    <string name="summary_secondValueUrl">Variable to send second Variable to URL</string>
+
+
+    <!--Light control commands-->
+    <string name="title_lightson">Lights on</string>
+    <string name="key_lightson_command">key_lightson_command</string>
+    <string name="default_value_lightson">lightson</string>
+    <string name="summary_lightson">Command for lights on</string>
+
+    <string name="title_lightsoff">Lights off</string>
+    <string name="key_lightsoff_command">key_lightsoff_command</string>
+    <string name="default_value_lightsoff">lightsoff</string>
+    <string name="summary_lightsoff">Command for lights off</string>
+
+    <string name="title_lightsstatus">Lights status</string>
+    <string name="key_lightsstatus_command">key_lightsstatus_command</string>
+    <string name="default_value_lightsstatus">lightsstatus</string>
+    <string name="summary_lightsstatus">Command to get the lights status</string>
+
+    <string name="title_currentbrightness">Current brightness</string>
+    <string name="key_currentbrightness_command">key_currentbrightness_command</string>
+    <string name="default_value_currentbrightness">currentbrightness</string>
+    <string name="summary_currentbrightness">Command to get current brightness</string>
+
+    <string name="title_brightnessup">Brighten lights</string>
+    <string name="key_brightnessup_command">key_brightnessup_command</string>
+    <string name="default_value_brightnessup">brightnessup</string>
+    <string name="summary_brightnessup">Command to brighten lights</string>
+
+    <string name="title_brightnessdown">Dim lights</string>
+    <string name="key_brightnessdown_command">key_brightnessdown_command</string>
+    <string name="default_value_brightnessdown">brightnessdown</string>
+    <string name="summary_brightnessdown">Command to dim lights</string>
+
+    <string name="title_red">Make lights red</string>
+    <string name="key_red_command">key_red_command</string>
+    <string name="default_value_red">red</string>
+    <string name="summary_red">Command make lights red</string>
+
+    <string name="title_green">Make lights green</string>
+    <string name="key_green_command">key_green_command</string>
+    <string name="default_value_green">green</string>
+    <string name="summary_green">Command to make lights green</string>
+
+    <string name="title_blue">Make lights blue</string>
+    <string name="key_blue_command">key_blue_command</string>
+    <string name="default_value_blue">blue</string>
+    <string name="summary_blue">Command to make lights blue</string>
+
+    <string name="title_white">Make lights white</string>
+    <string name="key_white_command">key_white_command</string>
+    <string name="default_value_white">white</string>
+    <string name="summary_white">Command to make lights white</string>
+
+    <string name="title_redup">Red up</string>
+    <string name="key_redup_command">key_redup_command</string>
+    <string name="default_value_redup">redup</string>
+    <string name="summary_redup">Command to increase red</string>
+
+    <string name="title_reddown">Red Down</string>
+    <string name="key_reddown_command">key_reddown_command</string>
+    <string name="default_value_reddown">reddown</string>
+    <string name="summary_reddown">Command to decrease red</string>
+
+    <string name="title_greenup">Green up</string>
+    <string name="key_greenup_command">key_greenup_command</string>
+    <string name="default_value_greenup">greenup</string>
+    <string name="summary_greenup">Command to increase green</string>
+
+    <string name="title_greendown">Green down</string>
+    <string name="key_greendown_command">key_greendown_command</string>
+    <string name="default_value_greendown">greendown</string>
+    <string name="summary_greendown">Command to decrease green</string>
+
+    <string name="title_blueup">Blue up</string>
+    <string name="key_blueup_command">key_blueup_command</string>
+    <string name="default_value_blueup">blueup</string>
+    <string name="summary_blueup">Command to increase blue</string>
+
+    <string name="title_bluedown">Blue down</string>
+    <string name="key_bluedown_command">key_bluedown_command</string>
+    <string name="default_value_bluedown">bluedown</string>
+    <string name="summary_bluedown">Command to decrease blue</string>
+
+    <string name="title_diy1">DIY 1</string>
+    <string name="key_diy1_command">key_diy1_command</string>
+    <string name="default_value_diy1">diy1</string>
+    <string name="summary_diy1">Command to change to DIY 1</string>
+
+    <string name="title_diy2">DIY 2</string>
+    <string name="key_diy2_command">key_diy2_command</string>
+    <string name="default_value_diy2">diy2</string>
+    <string name="summary_diy2">Command to change to DIY 2</string>
+
+    <string name="title_diy3">DIY 3</string>
+    <string name="key_diy3_command">key_diy3_command</string>
+    <string name="default_value_diy3">diy3</string>
+    <string name="summary_diy3">Command to change to DIY 3</string>
+
+    <string name="title_diy4">DIY 4</string>
+    <string name="key_diy4_command">key_diy4_command</string>
+    <string name="default_value_diy4">diy4</string>
+    <string name="summary_diy4">Command to change to DIY 4</string>
+
+    <string name="title_diy5">DIY 5</string>
+    <string name="key_diy5_command">key_diy5_command</string>
+    <string name="default_value_diy5">diy5</string>
+    <string name="summary_diy5">Command to change to DIY 5</string>
+
+    <string name="title_diy6">DIY 6</string>
+    <string name="key_diy6_command">key_diy6_command</string>
+    <string name="default_value_diy6">diy6</string>
+    <string name="summary_diy6">Command to change to DIY 6</string>
+
+    <string name="title_slow">Slow</string>
+    <string name="key_slow_command">key_slow_command</string>
+    <string name="default_value_slow">slow</string>
+    <string name="summary_slow">Command to slow lights</string>
+
+    <string name="title_auto">Auto</string>
+    <string name="key_auto_command">key_auto_command</string>
+    <string name="default_value_auto">auto</string>
+    <string name="summary_auto">Command for auto</string>
+
+    <string name="title_flash">Flash</string>
+    <string name="key_flash_command">key_flash_command</string>
+    <string name="default_value_flash">flash</string>
+    <string name="summary_flash">Command to make lights flash</string>
+
+    <string name="title_jump3">Jump 3</string>
+    <string name="key_jump3_command">key_jump3_command</string>
+    <string name="default_value_jump3">jump3</string>
+    <string name="summary_jump3">Command for jump 3</string>
+
+    <string name="title_jump7">Jump 7</string>
+    <string name="key_jump7_command">key_jump7_command</string>
+    <string name="default_value_jump7">jump7</string>
+    <string name="summary_jump7">Command for jump 7</string>
+
+    <string name="title_fade3">Fade 3</string>
+    <string name="key_fade3_command">key_fade3_command</string>
+    <string name="default_value_fade3">fade3</string>
+    <string name="summary_fade3">Command for jump 3</string>
+
+    <string name="title_fade7">Fade 7</string>
+    <string name="key_fade7_command">key_fade7_command</string>
+    <string name="default_value_fade7">fade7</string>
+    <string name="summary_fade7">Command for fade 7</string>
+
+
+    <!--Music control commands-->
+    <string name="title_currentsong">Current song</string>
+    <string name="key_currentsong_command">key_currentsong_command</string>
+    <string name="default_value_currentsong">currentsong</string>
+    <string name="summary_currentsong">Command to get the current song</string>
+
+    <string name="title_playmusic">Play music</string>
+    <string name="key_playmusic_command">key_playmusic_command</string>
+    <string name="default_value_playmusic">playmusic</string>
+    <string name="summary_playmusic">Command to play music</string>
+
+    <string name="title_stopmusic">Stop music</string>
+    <string name="key_stopmusic_command">key_stopmusic_command</string>
+    <string name="default_value_stopmusic">stopmusic</string>
+    <string name="summary_stopmusic">Command to stop music</string>
+
+    <string name="title_currentvolume">Current volume</string>
+    <string name="key_currentvolume_command">key_currentvolume_command</string>
+    <string name="default_value_currentvolume">currentvolume</string>
+    <string name="summary_currentvolume">Command to get the current volume</string>
+
+    <string name="title_setvolume">Set volume</string>
+    <string name="key_setvolume_command">key_setvolume_command</string>
+    <string name="default_value_setvolume">setvolume</string>
+    <string name="summary_setvolume">Command to set the volume</string>
+
+    <string name="title_getSleepTimer">Get sleep timer</string>
+    <string name="key_getSleepTimer_command">key_getSleepTimer_command</string>
+    <string name="default_value_getSleepTimer">getsleeptimer</string>
+    <string name="summary_getSleepTimer">Command to get current sleep timer</string>
+
+    <string name="title_setSleepTimer">Set sleep timer</string>
+    <string name="key_setSleepTimer_command">key_setSleepTimer_command</string>
+    <string name="default_value_setSleepTimer">setsleeptimer</string>
+    <string name="summary_setSleepTimer">Command to set the sleep timer</string>
+
+    <string name="title_removeSleepTimer">Remove sleep timer</string>
+    <string name="key_removeSleepTimer_command">key_removeSleepTimer_command</string>
+    <string name="default_value_removeSleepTimer">removesleeptimer</string>
+    <string name="summary_removeSleepTimer">Command to remove the sleep timer</string>
+
+    <!-- Alarms -->
+    <string name="title_currentAlarms">Current alarms</string>
+    <string name="key_currentAlarms_command">key_currentAlarms_command</string>
+    <string name="default_value_currentAlarms">currentalarms</string>
+    <string name="summary_currentAlarms">Command to get current alarms</string>
+
+    <string name="title_updateAlarms">Update alarms</string>
+    <string name="key_updateAlarms_command">key_updateAlarms_command</string>
+    <string name="default_value_updateAlarms">updatealarms</string>
+    <string name="summary_updateAlarms">Command to update the alarms</string>
+
+    <string name="title_removeAlarm">remove alarm</string>
+    <string name="key_removeAlarm_command">key_removeAlarm_command</string>
+    <string name="default_value_removeAlarm">removealarm</string>
+    <string name="summary_removeAlarm">Command to remove an alarm</string>
+
+    <string-array name="alarmArray">
+        <item>Early</item>
+        <item>Late</item>
+    </string-array>
+
+    <string name="noAlarmSet">No alarm set</string>
+
+    <!-- PC -->
+    <string name="title_pcOn">PC on</string>
+    <string name="key_pcOn_command">key_pcOn_command</string>
+    <string name="default_value_pcOn">on</string>
+    <string name="summary_pcOn">Command to turn PC on</string>
+
+    <string name="title_pcOff">PC off</string>
+    <string name="key_pcOff_command">key_pcOff_command</string>
+    <string name="default_value_pcOff">off</string>
+    <string name="summary_pcOff">Command to turn off PC</string>
+
+    <string name="title_pcStatus">PC status</string>
+    <string name="key_pcStatus_command">key_pcStatus_command</string>
+    <string name="default_value_pcStatus">status</string>
+    <string name="summary_pcStatus">Command to get current PC status</string>
+
+    <!-- Backup -->
+    <string name="title_backupBootPi">Boot Pi</string>
+    <string name="key_backupBootPi_command">key_backupBootPi_command</string>
+    <string name="default_value_backupBootPi">backupbootpi</string>
+    <string name="summary_backupBootPi">Command to backup boot pi</string>
+
+    <string name="title_bootPiDetails">Boot Pi Details</string>
+    <string name="key_bootPiDetails_command">key_bootPiDetails_command</string>
+    <string name="default_value_bootPiDetails">bootpidetails</string>
+    <string name="summary_bootPiDetails">Command to get details on boot pi</string>
+
+    <string name="title_backupLightPi">Light Pi</string>
+    <string name="key_backupLightPi_command">key_backupLightPi_command</string>
+    <string name="default_value_backupLightPi">backuplightpi</string>
+    <string name="summary_backupLightPi">Command to backup light pi</string>
+
+    <string name="title_lightPiDetails">Light Pi Details</string>
+    <string name="key_lightPiDetails_command">key_lightPiDetails_command</string>
+    <string name="default_value_lightPiDetails">lightpidetails</string>
+    <string name="summary_lightPiDetails">Command to get details on light pi</string>
+
+    <string name="title_backupMemoryStick">Memory Stick</string>
+    <string name="key_backupMemoryStick_command">key_backupMemoryStick_command</string>
+    <string name="default_value_backupMemoryStick">backupmemorystick</string>
+    <string name="summary_backupMemoryStick">Command to backup memory stick</string>
+
+    <string name="title_memoryStickDetails">Memory Stick Details</string>
+    <string name="key_memoryStickDetails_command">key_memorystickdetails_command</string>
+    <string name="default_value_memoryStickDetails">memorystickdetails</string>
+    <string name="summary_memoryStickDetails">Command to get details on memory stick</string>
+
+    <string name="title_currenttasks">Current Tasks</string>
+    <string name="key_currenttasks_command">key_currenttasks_command</string>
+    <string name="default_value_currenttasks">currenttasks</string>
+    <string name="summary_currenttasks">Command to get current running tasks</string>
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+        <requestFocus/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:padding="@dimen/fab_margin">
+
+            <!-- Left -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="@dimen/fab_margin">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:onClick="lightButtonClicked"
+                    android:text="Light Control"
+                    android:layout_marginBottom="@dimen/fab_margin"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:onClick="alarmButtonClicked"
+                    android:text="Alarms"
+                    android:layout_marginBottom="@dimen/fab_margin"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:onClick="backupButtonClicked"
+                    android:text="Backups"
+                    android:layout_marginBottom="@dimen/fab_margin"/>
+            </LinearLayout>
+
+            <!-- Right -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="@dimen/fab_margin">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:onClick="musicButtonClicked"
+                    android:text="Music control"
+                    android:layout_marginBottom="@dimen/fab_margin"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:onClick="pcControlButtonClicked"
+                    android:text="PC Control"
+                    android:layout_marginBottom="@dimen/fab_margin"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

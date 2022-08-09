@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <PreferenceCategory android:title="Misc">
+        <EditTextPreference
+            android:title="@string/title_lightControlUrl"
+            android:key="@string/key_lightControlUrl_command"
+            android:defaultValue="@string/default_value_lightControlUrl"
+            android:summary="@string/summary_lightControlUrl"/>
+
+        <EditTextPreference
+            android:title="@string/title_musicControlUrl"
+            android:key="@string/key_musicControlUrl_command"
+            android:defaultValue="@string/default_value_musicControlUrl"
+            android:summary="@string/summary_musicControlUrl"/>
+
+        <EditTextPreference
+            android:title="@string/title_alarmControlUrl"
+            android:key="@string/key_alarmControlUrl_command"
+            android:defaultValue="@string/default_value_alarmControlUrl"
+            android:summary="@string/summary_alarmControlUrl"/>
+
+        <EditTextPreference
+            android:title="@string/title_pcControlUrl"
+            android:key="@string/key_pcControlUrl_command"
+            android:defaultValue="@string/default_value_pcControlUrl"
+            android:summary="@string/summary_pcControlUrl"/>
+
+        <EditTextPreference
+            android:title="@string/title_backupUrl"
+            android:key="@string/key_backupUrl_command"
+            android:defaultValue="@string/default_value_backupUrl"
+            android:summary="@string/summary_backupUrl"/>
+
+        <EditTextPreference
+            android:title="@string/title_firstVariableUrl"
+            android:key="@string/key_firstVariableUrl_command"
+            android:defaultValue="@string/default_value_firstVariableUrl"
+            android:summary="@string/summary_firstValueUrl"/>
+
+        <EditTextPreference
+            android:title="@string/title_secondVariableUrl"
+            android:key="@string/key_secondVariableUrl_command"
+            android:defaultValue="@string/default_value_secondValueUrl"
+            android:summary="@string/summary_secondValueUrl"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Lights Commands">
+        <EditTextPreference
+            android:title="@string/title_lightson"
+            android:key="@string/key_lightson_command"
+            android:defaultValue="@string/default_value_lightson"
+            android:summary="@string/summary_lightson"/>
+
+        <EditTextPreference
+            android:title="@string/title_lightsoff"
+            android:key="@string/key_lightsoff_command"
+            android:defaultValue="@string/default_value_lightsoff"
+            android:summary="@string/summary_lightsoff"/>
+
+        <EditTextPreference
+            android:title="@string/title_currentbrightness"
+            android:key="@string/key_currentbrightness_command"
+            android:defaultValue="@string/default_value_currentbrightness"
+            android:summary="@string/summary_currentbrightness"/>
+
+        <EditTextPreference
+            android:title="@string/title_brightnessup"
+            android:key="@string/key_brightnessup_command"
+            android:defaultValue="@string/default_value_brightnessup"
+            android:summary="@string/summary_brightnessup"/>
+
+        <EditTextPreference
+            android:title="@string/title_brightnessdown"
+            android:key="@string/key_brightnessdown_command"
+            android:defaultValue="@string/default_value_brightnessdown"
+            android:summary="@string/summary_brightnessdown"/>
+
+        <EditTextPreference
+            android:title="@string/title_red"
+            android:key="@string/key_red_command"
+            android:defaultValue="@string/default_value_red"
+            android:summary="@string/summary_red"/>
+
+        <EditTextPreference
+            android:title="@string/title_green"
+            android:key="@string/key_green_command"
+            android:defaultValue="@string/default_value_green"
+            android:summary="@string/summary_green"/>
+
+        <EditTextPreference
+            android:title="@string/title_blue"
+            android:key="@string/key_blue_command"
+            android:defaultValue="@string/default_value_blue"
+            android:summary="@string/summary_blue"/>
+
+        <EditTextPreference
+            android:title="@string/title_white"
+            android:key="@string/key_white_command"
+            android:defaultValue="@string/default_value_white"
+            android:summary="@string/summary_white"/>
+
+        <EditTextPreference
+            android:title="@string/title_redup"
+            android:key="@string/key_redup_command"
+            android:defaultValue="@string/default_value_redup"
+            android:summary="@string/summary_redup"/>
+
+        <EditTextPreference
+            android:title="@string/title_reddown"
+            android:key="@string/key_reddown_command"
+            android:defaultValue="@string/default_value_reddown"
+            android:summary="@string/summary_reddown"/>
+
+        <EditTextPreference
+            android:title="@string/title_greenup"
+            android:key="@string/key_greenup_command"
+            android:defaultValue="@string/default_value_greenup"
+            android:summary="@string/summary_greenup"/>
+
+        <EditTextPreference
+            android:title="@string/title_greendown"
+            android:key="@string/key_greendown_command"
+            android:defaultValue="@string/default_value_greendown"
+            android:summary="@string/summary_greendown"/>
+
+        <EditTextPreference
+            android:title="@string/title_blueup"
+            android:key="@string/key_blueup_command"
+            android:defaultValue="@string/default_value_blueup"
+            android:summary="@string/summary_blueup"/>
+
+        <EditTextPreference
+            android:title="@string/title_blueup"
+            android:key="@string/key_bluedown_command"
+            android:defaultValue="@string/default_value_bluedown"
+            android:summary="@string/summary_bluedown"/>
+
+        <EditTextPreference
+            android:title="@string/title_diy1"
+            android:key="@string/key_diy1_command"
+            android:defaultValue="@string/default_value_diy1"
+            android:summary="@string/summary_diy1"/>
+
+        <EditTextPreference
+            android:title="@string/title_diy2"
+            android:key="@string/key_diy2_command"
+            android:defaultValue="@string/default_value_diy2"
+            android:summary="@string/summary_diy2"/>
+
+        <EditTextPreference
+            android:title="@string/title_diy3"
+            android:key="@string/key_diy3_command"
+            android:defaultValue="@string/default_value_diy3"
+            android:summary="@string/summary_diy3"/>
+
+        <EditTextPreference
+            android:title="@string/title_diy4"
+            android:key="@string/key_diy4_command"
+            android:defaultValue="@string/default_value_diy4"
+            android:summary="@string/summary_diy4"/>
+
+        <EditTextPreference
+            android:title="@string/title_diy5"
+            android:key="@string/key_diy5_command"
+            android:defaultValue="@string/default_value_diy5"
+            android:summary="@string/summary_diy5"/>
+
+        <EditTextPreference
+            android:title="@string/title_diy6"
+            android:key="@string/key_diy6_command"
+            android:defaultValue="@string/default_value_diy6"
+            android:summary="@string/summary_diy6"/>
+
+        <EditTextPreference
+            android:title="@string/title_slow"
+            android:key="@string/key_slow_command"
+            android:defaultValue="@string/default_value_slow"
+            android:summary="@string/summary_slow"/>
+
+        <EditTextPreference
+            android:title="@string/title_auto"
+            android:key="@string/key_auto_command"
+            android:defaultValue="@string/default_value_auto"
+            android:summary="@string/summary_auto"/>
+
+        <EditTextPreference
+            android:title="@string/title_flash"
+            android:key="@string/key_flash_command"
+            android:defaultValue="@string/default_value_flash"
+            android:summary="@string/summary_flash"/>
+
+        <EditTextPreference
+            android:title="@string/title_jump3"
+            android:key="@string/key_jump3_command"
+            android:defaultValue="@string/default_value_jump3"
+            android:summary="@string/summary_jump3"/>
+
+        <EditTextPreference
+            android:title="@string/title_jump7"
+            android:key="@string/key_jump7_command"
+            android:defaultValue="@string/default_value_jump7"
+            android:summary="@string/summary_jump7"/>
+
+        <EditTextPreference
+            android:title="@string/title_fade3"
+            android:key="@string/key_fade3_command"
+            android:defaultValue="@string/default_value_fade3"
+            android:summary="@string/summary_fade3"/>
+
+        <EditTextPreference
+            android:title="@string/title_fade7"
+            android:key="@string/key_fade7_command"
+            android:defaultValue="@string/default_value_fade7"
+            android:summary="@string/summary_fade7"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Music commands">
+        <EditTextPreference
+            android:title="@string/title_currentsong"
+            android:key="@string/key_currentsong_command"
+            android:defaultValue="@string/default_value_currentsong"
+            android:summary="@string/summary_currentsong"/>
+
+        <EditTextPreference
+            android:title="@string/title_currentvolume"
+            android:key="@string/key_currentvolume_command"
+            android:defaultValue="@string/default_value_currentvolume"
+            android:summary="@string/summary_currentvolume"/>
+
+        <EditTextPreference
+            android:title="@string/title_setvolume"
+            android:key="@string/key_setvolume_command"
+            android:defaultValue="@string/default_value_setvolume"
+            android:summary="@string/summary_setvolume"/>
+
+        <EditTextPreference
+            android:title="@string/title_playmusic"
+            android:key="@string/key_playmusic_command"
+            android:defaultValue="@string/default_value_playmusic"
+            android:summary="@string/summary_playmusic"/>
+
+        <EditTextPreference
+            android:title="@string/title_stopmusic"
+            android:key="@string/key_stopmusic_command"
+            android:defaultValue="@string/default_value_stopmusic"
+            android:summary="@string/summary_stopmusic"/>
+
+        <EditTextPreference
+            android:title="@string/title_getSleepTimer"
+            android:key="@string/key_getSleepTimer_command"
+            android:defaultValue="@string/default_value_getSleepTimer"
+            android:summary="@string/summary_getSleepTimer"/>
+
+        <EditTextPreference
+            android:title="@string/title_setSleepTimer"
+            android:key="@string/key_setSleepTimer_command"
+            android:defaultValue="@string/default_value_setSleepTimer"
+            android:summary="@string/summary_setSleepTimer"/>
+
+        <EditTextPreference
+            android:title="@string/title_removeSleepTimer"
+            android:key="@string/key_removeSleepTimer_command"
+            android:defaultValue="@string/default_value_removeSleepTimer"
+            android:summary="@string/summary_removeSleepTimer"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Alarm commands">
+        <EditTextPreference
+            android:title="@string/title_currentAlarms"
+            android:key="@string/key_currentAlarms_command"
+            android:defaultValue="@string/default_value_currentAlarms"
+            android:summary="@string/summary_currentAlarms"/>
+
+        <EditTextPreference
+            android:title="@string/title_updateAlarms"
+            android:key="@string/key_updateAlarms_command"
+            android:defaultValue="@string/default_value_updateAlarms"
+            android:summary="@string/summary_updateAlarms"/>
+
+        <EditTextPreference
+            android:title="@string/title_removeAlarm"
+            android:key="@string/key_removeAlarm_command"
+            android:defaultValue="@string/default_value_removeAlarm"
+            android:summary="@string/summary_removeAlarm"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="PC commands">
+        <EditTextPreference
+            android:title="@string/title_pcOn"
+            android:key="@string/key_pcOn_command"
+            android:defaultValue="@string/default_value_pcOn"
+            android:summary="@string/summary_pcOn"/>
+
+        <EditTextPreference
+            android:title="@string/title_pcOff"
+            android:key="@string/key_pcOff_command"
+            android:defaultValue="@string/default_value_pcOff"
+            android:summary="@string/summary_pcOff"/>
+
+        <EditTextPreference
+        android:title="@string/title_pcStatus"
+        android:key="@string/key_pcStatus_command"
+        android:defaultValue="@string/default_value_pcStatus"
+        android:summary="@string/summary_pcStatus"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Backup commands">
+        <EditTextPreference
+            android:title="@string/title_backupBootPi"
+            android:key="@string/key_backupBootPi_command"
+            android:defaultValue="@string/default_value_backupBootPi"
+            android:summary="@string/summary_backupBootPi"/>
+
+        <EditTextPreference
+            android:title="@string/title_bootPiDetails"
+            android:key="@string/key_bootPiDetails_command"
+            android:defaultValue="@string/default_value_bootPiDetails"
+            android:summary="@string/summary_bootPiDetails"/>
+
+        <EditTextPreference
+            android:title="@string/title_backupLightPi"
+            android:key="@string/key_backupLightPi_command"
+            android:defaultValue="@string/default_value_backupLightPi"
+            android:summary="@string/summary_backupLightPi"/>
+
+        <EditTextPreference
+            android:title="@string/title_lightPiDetails"
+            android:key="@string/key_lightPiDetails_command"
+            android:defaultValue="@string/default_value_lightPiDetails"
+            android:summary="@string/summary_lightPiDetails"/>
+
+        <EditTextPreference
+            android:title="@string/title_backupMemoryStick"
+            android:key="@string/key_backupMemoryStick_command"
+            android:defaultValue="@string/default_value_backupMemoryStick"
+            android:summary="@string/summary_backupMemoryStick"/>
+
+        <EditTextPreference
+            android:title="@string/title_memoryStickDetails"
+            android:key="@string/key_memoryStickDetails_command"
+            android:defaultValue="@string/default_value_memoryStickDetails"
+            android:summary="@string/summary_memoryStickDetails"/>
+
+        <EditTextPreference
+            android:title="@string/title_currenttasks"
+            android:key="@string/key_currenttasks_command"
+            android:defaultValue="@string/default_value_currenttasks"
+            android:summary="@string/summary_currenttasks"/>
+    </PreferenceCategory>
+</PreferenceScreen>

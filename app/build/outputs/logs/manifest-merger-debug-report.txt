@@ -1,0 +1,177 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml:2:1-54:12
+MERGED from [com.android.support:preference-v7:27.1.1] C:\Users\bored\.gradle\caches\transforms-1\files-1.1\preference-v7-27.1.1.aar\64e53104b510801967467dc8e5212b8d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:design:27.1.1] C:\Users\bored\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\fdf8b75365fd00e880dbdf870234fdaa\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\bored\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\c2caf5142d55be228a4ce14763bc3f2f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\bored\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\5cd2e17e44e8343d7883096af3e46bb7\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\bored\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\ede97e074c3a25ccae0487a11d37ed2c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\bored\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\a2c4a7c8d70c67354a63703bdee2db8c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\bored\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\09e186b040f02cf15c209fbf5cbade0b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\bored\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\1f2f5cad74c9268b2e5a9465470879d3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\bored\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\0ea37d8782752076e8526015e6a789ed\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\bored\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\b7fc805a1a75446e990b645a20e006c8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\bored\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\33169ac61e852783b2930815c657639e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] C:\Users\bored\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\2c139084cdabbb50a2d68b61e23a1e93\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\bored\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\1b109bf94065f2022263c837112f3873\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\bored\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\3ec7447ff55c52b053f70cfe25a39bf7\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\bored\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\e8f18f606f95247b61141c4dd833bf13\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\bored\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\c84f6493dd39b886cd3493c48b2dc572\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\bored\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\877757da000ad4b665982eadf8559aac\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\bored\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\4251ae75c73f29882463393a6e01fcfc\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml:2:1-54:12
+	package
+		ADDED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml:3:5-42
+		INJECTED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml:2:1-54:12
+		INJECTED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml:2:1-54:12
+		INJECTED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml:5:22-64
+application
+ADDED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml:7:5-52:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\bored\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\5cd2e17e44e8343d7883096af3e46bb7\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\bored\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\5cd2e17e44e8343d7883096af3e46bb7\AndroidManifest.xml:9:5-20
+	android:supportsRtl
+		ADDED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml:10:9-41
+	android:roundIcon
+		ADDED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml:11:9-54
+	android:icon
+		ADDED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml:13:9-40
+activity#songer.michael.controlpanel.MainActivity
+ADDED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml:14:9-23:20
+	android:label
+		ADDED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml:16:13-45
+	android:theme
+		ADDED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml:17:13-56
+	android:name
+		ADDED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml:15:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml:18:13-22:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml:21:27-74
+activity#songer.michael.controlpanel.SettingsActivity
+ADDED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml:24:9-27:68
+	android:parentActivityName
+		ADDED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml:27:13-55
+	android:label
+		ADDED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml:25:13-45
+activity#songer.michael.controlpanel.LightControlActivity
+ADDED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml:29:9-32:68
+	android:parentActivityName
+		ADDED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml:32:13-55
+	android:label
+		ADDED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml:31:13-42
+	android:name
+		ADDED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml:30:13-49
+activity#songer.michael.controlpanel.MusicControlActivity
+ADDED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml:34:9-37:68
+	android:parentActivityName
+		ADDED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml:37:13-55
+	android:label
+		ADDED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml:36:13-42
+	android:name
+		ADDED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml:35:13-49
+activity#songer.michael.controlpanel.AlarmsActivity
+ADDED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml:39:9-42:68
+	android:parentActivityName
+		ADDED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml:42:13-55
+	android:label
+		ADDED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml:41:13-35
+	android:name
+		ADDED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml:40:13-43
+activity#songer.michael.controlpanel.PcControlActivity
+ADDED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml:44:9-47:68
+	android:parentActivityName
+		ADDED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml:47:13-55
+	android:label
+		ADDED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml:46:13-39
+	android:name
+		ADDED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml:45:13-46
+activity#songer.michael.controlpanel.BackupActivity
+ADDED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml:49:9-51:68
+	android:parentActivityName
+		ADDED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml:51:13-55
+	android:label
+		ADDED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml:50:13-43
+	android:name
+		ADDED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml:49:19-49
+uses-sdk
+INJECTED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:preference-v7:27.1.1] C:\Users\bored\.gradle\caches\transforms-1\files-1.1\preference-v7-27.1.1.aar\64e53104b510801967467dc8e5212b8d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:preference-v7:27.1.1] C:\Users\bored\.gradle\caches\transforms-1\files-1.1\preference-v7-27.1.1.aar\64e53104b510801967467dc8e5212b8d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\bored\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\fdf8b75365fd00e880dbdf870234fdaa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\bored\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\fdf8b75365fd00e880dbdf870234fdaa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\bored\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\c2caf5142d55be228a4ce14763bc3f2f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\bored\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\c2caf5142d55be228a4ce14763bc3f2f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\bored\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\5cd2e17e44e8343d7883096af3e46bb7\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\bored\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\5cd2e17e44e8343d7883096af3e46bb7\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\bored\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\ede97e074c3a25ccae0487a11d37ed2c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\bored\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\ede97e074c3a25ccae0487a11d37ed2c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\bored\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\a2c4a7c8d70c67354a63703bdee2db8c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\bored\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\a2c4a7c8d70c67354a63703bdee2db8c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\bored\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\09e186b040f02cf15c209fbf5cbade0b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\bored\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\09e186b040f02cf15c209fbf5cbade0b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\bored\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\1f2f5cad74c9268b2e5a9465470879d3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\bored\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\1f2f5cad74c9268b2e5a9465470879d3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\bored\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\0ea37d8782752076e8526015e6a789ed\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\bored\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\0ea37d8782752076e8526015e6a789ed\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\bored\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\b7fc805a1a75446e990b645a20e006c8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\bored\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\b7fc805a1a75446e990b645a20e006c8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\bored\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\33169ac61e852783b2930815c657639e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\bored\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\33169ac61e852783b2930815c657639e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\bored\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\2c139084cdabbb50a2d68b61e23a1e93\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\bored\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\2c139084cdabbb50a2d68b61e23a1e93\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\bored\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\1b109bf94065f2022263c837112f3873\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\bored\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\1b109bf94065f2022263c837112f3873\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\bored\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\3ec7447ff55c52b053f70cfe25a39bf7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\bored\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\3ec7447ff55c52b053f70cfe25a39bf7\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\bored\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\e8f18f606f95247b61141c4dd833bf13\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\bored\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\e8f18f606f95247b61141c4dd833bf13\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\bored\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\c84f6493dd39b886cd3493c48b2dc572\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\bored\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\c84f6493dd39b886cd3493c48b2dc572\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\bored\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\877757da000ad4b665982eadf8559aac\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\bored\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\877757da000ad4b665982eadf8559aac\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\bored\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\4251ae75c73f29882463393a6e01fcfc\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\bored\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\4251ae75c73f29882463393a6e01fcfc\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\bored\Documents\control-panel-android\app\src\main\AndroidManifest.xml
